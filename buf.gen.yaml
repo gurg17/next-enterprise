@@ -1,0 +1,5 @@
+version: v2
+plugins:
+  - remote: buf.build/bufbuild/es
+    out: lib/proto-buf
+    opt: target=ts
